@@ -4,8 +4,14 @@ package cn.edu.nju.software.Calendar;
 
 import javax.swing.JOptionPane;
 
+// this is the version 1.1.2
+
+
+
 public class CalculatingDate{
 	public static void main(String[] args){
+        System.out.println("this is the version of 1.1.2");
+        
 		int option=JOptionPane.showConfirmDialog(null, 
 				"Would you like to provide a certain date that have passed?" );
 //Choose which one of the two functions to calculate number of days
